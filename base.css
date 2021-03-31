@@ -1,0 +1,66 @@
+body
+{
+	line-height: 0.7rem;
+	margin-top:1.5rem;
+}
+input
+{
+	font-size: 18px;
+	line-height: 1.5rem;
+	margin-top: 1rem;
+}
+.head
+{
+	margin-top: 2rem;
+}
+input.valbox
+{
+	border:solid;
+	border-width:1px;
+	border-color:darkblue;
+	border-radius:6px;
+	box-shadow: none;
+	padding: 2px 8px;
+}
+.btnExec
+{
+	width: 4em;
+}
+
+@media only screen and (max-device-width: 480px)
+{
+
+body
+{
+	font-size: 30px;
+	line-height: 3rem;
+	margin-top:2rem;
+}
+input
+{
+	font-size: 30px;
+	line-height: 3rem;
+}
+.head
+{
+margin-top: 3rem;
+}
+input.valbox
+{
+	border:solid;
+	border-width:1px;
+	border-color:darkred;
+	border-radius:10px;
+	box-shadow: none;
+	padding: 2px 8px;
+}
+input#btnExec
+{
+	width: 20em;
+}
+.btnExec
+{
+	width: 4em;
+}
+
+}

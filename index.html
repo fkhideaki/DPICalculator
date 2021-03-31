@@ -1,0 +1,73 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>DPI計算機</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="./DPICal.js"></script>
+<link rel="stylesheet" type="text/css" href="./base.css">
+</head>
+
+<body>
+
+<h1>DPI計算機</h1>
+
+DPI-ピクセル数-実寸を相互変換します。<br>
+
+<br>
+<br>
+
+<hr>
+<h3>DPIが知りたい</h3>
+<form>
+    <div>
+    <label>実寸</label>
+    <input type="text" class="valbox" id="GD_SZ" size="10">
+    <label id="GD_UNI">[mm]</label>
+    <label> x ピクセル数</label>
+    <input type="text" class="valbox" id="GD_PX" size="10"><br>
+    <input type="button" class="btnExec" id="GD_EX" value="↓" width="20"/>
+    <br>
+    <label>DPI</label>
+    <input type="text" class="valbox" id="GD_DP" size="10"><br>
+    </div>
+</form>
+
+<br>
+
+<hr>
+<h3>実寸が知りたい</h3>
+<form>
+    <div>
+    <label>ピクセル数</label>
+    <input type="text" class="valbox" id="GS_PX" size="10">
+    <label> x DPI</label>
+    <input type="text" class="valbox" id="GS_DP" size="10"><br>
+    <input type="button" class="btnExec" id="GS_EX" value="↓" width="20"/>
+    <br>
+    <label>実寸</label>
+    <input type="text" class="valbox" id="GS_SZ" size="10">
+    <label id="GS_UNI">[mm]</label>
+    </div>
+</form>
+
+<br>
+
+<hr>
+<h3>ピクセル数が知りたい</h3>
+<form>
+    <div>
+    <label>DPI</label>
+    <input type="text" class="valbox" id="GP_DP" size="10">
+    <label> x 実寸</label>
+    <input type="text" class="valbox" id="GP_SZ" size="10">
+    <labe id="GP_UNI">[mm]</label><br>
+    <input type="button" class="btnExec" id="GP_EX" value="↓" width="20"/>
+    <br>
+    <label>ピクセル数</label>
+    <input type="text" class="valbox" id="GP_PX" size="10">
+    </div>
+</form>
+
+</body>
+
+</html>
